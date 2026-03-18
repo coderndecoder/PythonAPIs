@@ -1,0 +1,30 @@
+Simple python FastAPI installation to test FastAPI and fastapi CLI in local.
+
+Steps:
+
+1. Clone this repo by
+    git clone https://github.com/coderndecoder/PythonAPIs.git
+
+2. Create virtual environment inside the project SimpleFastAPIs
+    python3 -m venv .venv
+
+3. Activate the virtual environment
+    source .venv/bin/activate
+
+4. Install FastAPI CLI packages to run it locally
+    pip3 install "fastapi[standard]"
+
+5. Test installation 
+    fastapi -h
+
+6. Run the fastapi in dev mode
+    fastapi dev
+
+7. Server will be started, this the first test for "Hello World". Open below URLs in browser.
+    http://127.0.0.1:8000
+    http://127.0.0.1:8000/docs#/
+
+8. Test the other servcie function with parameters 
+    http://127.0.0.1:8000/items/4?q=somequery
+
+9. 

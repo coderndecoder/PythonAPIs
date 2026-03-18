@@ -1,4 +1,4 @@
-Simple python FastAPI installation to test FastAPI and fastapi CLI in local.
+Simple python FastAPI installation to test FastAPI GET/PUT request using fastapi CLI in local.
 
 Steps:
 
@@ -27,4 +27,10 @@ Steps:
 8. Test the other servcie function with parameters 
     http://127.0.0.1:8000/items/4?q=somequery
 
-9. 
+9. Test Put request 
+    http://127.0.0.1:8000/docs#/default/update_item_item__item_id__put
+
+10. Advance API docs
+    http://127.0.0.1:8000/redoc
+
+    
